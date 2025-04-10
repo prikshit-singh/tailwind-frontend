@@ -4,7 +4,10 @@
     "strict": true,
     "paths": {
       "@/*": [
-        "./*"
+        "./*",
+      ],
+      "@context/*": [
+        "./context/*"
       ]
     }
   },
@@ -12,6 +15,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+    "app/index.js",
+    "context/**/*",
+    "components/**/*"
   ]
 }
